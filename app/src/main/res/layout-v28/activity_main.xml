@@ -14,10 +14,10 @@
         android:id="@+id/Titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/_3_en_raya"
+        android:text="3 en Raya"
         android:fontFamily="casual"
         android:textColor="@color/yellow"
-        android:textSize="20sp"
+        android:textFontWeight="20"
         android:textAlignment="center">
 
     </TextView>
@@ -39,57 +39,49 @@
             android:id="@+id/button1"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            tools:ignore="ContentDescription" />
+            />
         <ImageButton
             android:id="@+id/button2"
             android:layout_width="70dp"
-            android:layout_height="70dp"
-            tools:ignore="ContentDescription" />
+            android:layout_height="70dp"/>
         <ImageButton
             android:id="@+id/button3"
             android:layout_width="70dp"
-            android:layout_height="70dp"
-            tools:ignore="ContentDescription" />
+            android:layout_height="70dp"/>
         <ImageButton
             android:id="@+id/button4"
             android:layout_width="70dp"
-            android:layout_height="70dp"
-            tools:ignore="ContentDescription" />
+            android:layout_height="70dp"/>
         <ImageButton
             android:id="@+id/button5"
             android:layout_width="70dp"
-            android:layout_height="70dp"
-            tools:ignore="ContentDescription" />
+            android:layout_height="70dp"/>
         <ImageButton
             android:id="@+id/button6"
             android:layout_width="70dp"
-            android:layout_height="70dp"
-            tools:ignore="ContentDescription" />
+            android:layout_height="70dp"/>
         <ImageButton
             android:id="@+id/button7"
             android:layout_width="70dp"
-            android:layout_height="70dp"
-            tools:ignore="ContentDescription" />
+            android:layout_height="70dp"/>
         <ImageButton
             android:id="@+id/button8"
             android:layout_width="70dp"
-            android:layout_height="70dp"
-            tools:ignore="ContentDescription" />
+            android:layout_height="70dp"/>
         <ImageButton
             android:id="@+id/button9"
             android:layout_width="70dp"
-            android:layout_height="70dp"
-            tools:ignore="ContentDescription" />
+            android:layout_height="70dp"/>
 
 
     </GridLayout>
     <View
         android:id="@+id/separator"
         android:layout_width="match_parent"
-        android:layout_height="5dp"
+        android:layout_height="10px"
         android:background="@color/black"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
         android:layout_below="@id/gridLayout"/>
 
     <GridLayout
@@ -110,19 +102,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/tranquilito_eh"
-                android:textSize="10sp"
                 android:checked="true"
-                android:fontFamily="casual"
-                tools:ignore="SmallSp">
+                android:fontFamily="casual">
 
             </RadioButton>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/me_gustan_los_retos"
-                android:textSize="10sp"
-                android:fontFamily="casual"
-                tools:ignore="SmallSp">
+                android:fontFamily="casual">
 
             </RadioButton>
 
@@ -143,10 +131,10 @@
             android:layout_height="wrap_content"
             android:src="@drawable/android" />
         <TextView
-            android:text="@string/turno"
+            android:text="Turno"
             android:fontFamily="casual"/>
         <TextView
-            android:text="@string/turno"
+            android:text="Turno"
             android:fontFamily="casual"/>
 
 
